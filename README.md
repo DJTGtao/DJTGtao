@@ -1,5 +1,6 @@
 ## Hi there 👋
-
+# Jintao Dong                                                                        
+📧 djtgtao888@gmail.com  
 <!--
 **DJTGtao/DJTGtao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
