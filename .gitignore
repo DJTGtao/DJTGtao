@@ -1,0 +1,12 @@
+# Personal documents — keep local only
+新建简历*.md
+*简历*.md
+*resume*.md
+*CV*.pdf
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
