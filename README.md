@@ -1,57 +1,83 @@
-<div align="center">
+# 董金涛 / Jintao Dong
 
-# Jintao Dong
+中南大学计算机科学与技术本科生（2027 届）  
+Research interests: battery degradation trajectory forecasting, time-series modeling, Transformer-based deep learning.
 
-Computer Science undergraduate at Central South University  
-Researching battery degradation trajectory forecasting, time-series modeling, and Transformer-based deep learning.
+Email: [djtgtao888@gmail.com](mailto:djtgtao888@gmail.com)  
+GitHub: [DJTGtao](https://github.com/DJTGtao)  
+Paper: [arXiv:2605.27044](https://arxiv.org/abs/2605.27044)
 
-[![Email](https://img.shields.io/badge/Email-djtgtao888%40gmail.com-2b6cb0?style=flat-square&logo=gmail&logoColor=white)](mailto:djtgtao888@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-DJTGtao-24292f?style=flat-square&logo=github&logoColor=white)](https://github.com/DJTGtao)
-[![arXiv](https://img.shields.io/badge/arXiv-2605.27044-b31b1b?style=flat-square)](https://arxiv.org/abs/2605.27044)
+## Profile
 
-</div>
+I am an undergraduate student at Central South University, working on machine learning for battery health forecasting. My recent research focuses on predicting full-life battery state-of-health trajectories from early operational data, with an emphasis on multi-level sequence modeling and degradation pattern learning.
 
-## About
+- Education: B.S. in Computer Science and Technology, Central South University, 2023.09 - present.
+- Academic performance: GPA 88.84/100, top 17% in major; undergraduate academic scholarship in freshman and sophomore years.
+- English: CET-6 598, comfortable reading and writing English research papers.
+- Research interests: time-series forecasting, battery degradation modeling, Transformer architectures, deep learning experiments, data visualization.
 
-I work on machine learning systems for battery health forecasting, with a focus on modeling long-horizon state-of-health trajectories from early-cycle data. My recent work combines multi-level sequence modeling, degradation pattern memory, and SOC-localized signal analysis.
-
-- B.S. in Computer Science and Technology, Central South University, class of 2027.
-- Research interests: time-series forecasting, battery degradation modeling, Transformer architectures, deep learning experiments.
-- Tooling I use often: PyTorch, Python, C/C++, NumPy, Pandas, Matplotlib, Git, Linux, LaTeX.
-
-## Featured Work
-
-| Work | Role | Notes |
-| --- | --- | --- |
-| [BatteryMFormer](https://github.com/Ruifeng-Tan/BatteryMFormer) | Co-first author | Multi-level Transformer for early battery degradation trajectory forecasting. [arXiv:2605.27044](https://arxiv.org/abs/2605.27044). |
-| [BatteryLife](https://github.com/Ruifeng-Tan/BatteryLife) | Contributor | Contributed to the predecessor battery lifetime prediction codebase. |
-
-## Research Snapshot
+## Publication
 
 **BatteryMFormer: Multi-level Learning for Battery Degradation Trajectory Forecasting**  
-The project studies full-life battery SOH trajectory prediction from early operational data. The model uses aging-condition priors, cross-battery degradation pattern memory, and dual-view encoding for voltage-current profiles.
+Ruifeng Tan, **Jintao Dong**, Weixiang Hong, Jia Li, Jiaqiang Huang, Tong-Yi Zhang  
+Accepted by **KDD 2026** (CCF-A). Preprint available at [arXiv:2605.27044](https://arxiv.org/abs/2605.27044). Code: [Ruifeng-Tan/BatteryMFormer](https://github.com/Ruifeng-Tan/BatteryMFormer)
 
-Links: [paper](https://arxiv.org/abs/2605.27044) / [code](https://github.com/Ruifeng-Tan/BatteryMFormer)
+Main contributions:
 
-## Tech Stack
+- Proposed a multi-level Transformer framework for battery degradation trajectory forecasting.
+- Modeled aging-condition priors, cross-battery degradation patterns, and SOC-localized voltage-current variations.
+- Participated in problem formulation, literature review, model design, experiment implementation, result analysis, and paper writing.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=1f2328" alt="Linux" />
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX" />
-</p>
+## Research Experience
 
-## GitHub
+### Hong Kong University of Science and Technology
 
-<p align="center">
-  <img height="158" src="https://github-readme-stats.vercel.app/api?username=DJTGtao&show_icons=true&hide_border=true&rank_icon=github" alt="DJTGtao GitHub stats" />
-  <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DJTGtao&layout=compact&hide_border=true" alt="Top languages" />
-</p>
+Research mentors: Ruifeng Tan, Jia Li  
+2025.10 - 2026.02
+
+- Worked on early battery degradation trajectory forecasting and long-horizon SOH prediction.
+- Conducted literature review on battery lifetime prediction, time-series modeling, and Transformer-based forecasting.
+- Participated in BatteryMFormer method design, data preprocessing, model training, baseline comparison, ablation studies, and manuscript writing.
+
+### Central South University, Visualization and Visual Analytics Group
+
+Research mentor: Ying Zhao  
+2025.02 - 2025.06
+
+- Studied data visualization and visual analytics methods.
+- Shared and presented visualization-related papers and methods within the research group.
+
+### Central South University, Alex Vision Group
+
+Research mentors: Jinpeng Wang, Jingru Tan  
+2026.02 - 2026.04
+
+- Investigated robotic facial VLA simulation platforms and related technical pipelines.
+- Built a facial data collection pipeline and collected high-quality research data for subsequent model development.
+
+## Selected Projects
+
+| Project | Role | Description |
+| --- | --- | --- |
+| [BatteryMFormer](https://github.com/Ruifeng-Tan/BatteryMFormer) | Co-first author | Multi-level Transformer for early battery degradation trajectory forecasting. Accepted by KDD 2026. |
+| [BatteryLife](https://github.com/Ruifeng-Tan/BatteryLife) | Contributor | Contributed to the predecessor battery lifetime prediction codebase of BatteryMFormer-related work. |
+
+## Skills
+
+- Programming: Python, C/C++
+- Machine learning: PyTorch, deep learning model training, experiment design, hyperparameter tuning
+- Data and visualization: NumPy, Pandas, Matplotlib, data preprocessing, result analysis
+- Research workflow: literature review, LaTeX writing, Git/GitHub, Linux
+- Core coursework: data structures, algorithm design, operating systems, computer networks, artificial intelligence, machine learning
+
+## Honors
+
+- Provincial Third Prize, Lanqiao Cup Programming Contest
+- Provincial Third Prize, Service Outsourcing Innovation and Entrepreneurship Competition
+- Provincial Third Prize, Chinese Collegiate Computing Competition
+- Outstanding Student Assistant, Central South University
 
 ## Contact
 
-For research discussion or collaboration, feel free to reach me at [djtgtao888@gmail.com](mailto:djtgtao888@gmail.com).
+I am open to research discussion and collaboration in machine learning, time-series forecasting, battery health modeling, and data visualization.  
+Email: [djtgtao888@gmail.com](mailto:djtgtao888@gmail.com)
